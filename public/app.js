@@ -3,7 +3,7 @@ const socket = io('/');
 
 // Initialize PeerJS
 const peer = new Peer(undefined, {
-    host: 'https://discord-clone-jnf5.onrender.com',
+    host: 'discord-clone-jnf5.onrender.com',
     port: 9000,
     path: '/peerjs'
 });
